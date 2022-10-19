@@ -1,7 +1,9 @@
 body{
-    background-color: blanchedalmond;
+    background-color: ivory;
 }
 div{
      width: 80%;
-    background-color: aqua;
+        background-color: aqua;
+        margin-left: auto;
+        margin-right: auto;
     }
