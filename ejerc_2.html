@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ejerc_2.js"></script>
+    <title>formulario de registro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="menu">
+    <main>
+    <h1>Registro de vacunacion conra el COVID-19</h1>
+    <form
+        action=""
+        method="GET"
+        name="formRegistro"
+        onsubmit="validar_formulario();"
+    >
+    <p>nombre: <input type="text" id="nombre" name="nombre" /></p>
+    <p>usuario: <input type="text" id="username" name="username" /></p>
+    <p>sexo: <input type="radio" id="sexo" name="sexo" value="h" /> hombre
+        <input type="radio" id="sexo" name="sexo" value="m" /> mujer </p>
+    <p> <input type="text" id="correo" name="correo" maxlength="100" /></p>
+    <p>contraseña: <input type="password" id="password" name="password" /></p>
+    <p>usuario: <input type="checkbox" name="condiciones" />Declaro haber leido y acepto todos los terminos y condiciones<br>
+        generales del programa y la normativa sobre la proteccion de datos.<br> 
+    </p>
+    <center>
+    <button type="submit" value="enviar">  Enviar </button>
+    </center>
+    </form>
+    </main>
+    </div>
+</body>
+</html>
